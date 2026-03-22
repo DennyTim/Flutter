@@ -27,14 +27,14 @@ void task1() {
   final p = width * 2 + height * 2;
 
   /// Площа
-  final s = width * height;
+  final square = width * height;
 
   /// Кількість повних квадратів
-  final amountSq = height ~/ width;
+  final count = square ~/ 1;
 
   print('Периметр: $p');
-  print('Площа: $s');
-  print('Кількість повних квадратів: $amountSq');
+  print('Площа: $square');
+  print('Кількість повних квадратів: $count');
   print('--------------------------');
 }
 
