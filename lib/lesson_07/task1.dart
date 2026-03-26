@@ -3,7 +3,7 @@ import 'dart:math';
 String launchFns() {
   task1();
 
-  return '------------------Test 1 finished-----------------------';
+  return '------------------Task 1 finished-----------------------';
 }
 
 void task1() {

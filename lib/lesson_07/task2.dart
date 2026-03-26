@@ -4,7 +4,7 @@ import 'package:dart_learning_journey/lesson_07/homework/names_gpt.dart';
 String launchFns() {
   task2();
 
-  return 'Test 2 finished';
+  return '------------------Task 2 finished-----------------------';
 }
 
 void task2() {
@@ -14,14 +14,8 @@ void task2() {
   print('Кількість елементів: ${union.length}');
 
   final difference = ukrainianNamesGPT.difference(ukrainianNamesDeepseek);
-  print(
-    'Імена, що є в ukrainianNamesGPT' +
-        ', і яких немає в ukrainianNamesDeepseek: $difference',
-  );
+  print(difference);
 
   final difference2 = ukrainianNamesDeepseek.difference(ukrainianNamesGPT);
-  print(
-    'Імена, що є в ukrainianNamesDeepseek' +
-        ', і яких немає в ukrainianNamesGPT: $difference2',
-  );
+  print(difference2);
 }
