@@ -40,7 +40,7 @@ String getAge(String age) {
   final ageExpression = switch (modifiedResult) {
     final n when n == 1 => 'рік',
     final n when n > 1 && n < 5 => 'роки',
-    final n when n > 4 && n < 20 => 'років',
+    final n when n > 4 && n < 21 => 'років',
     final n when n > 20 && lastDigit > 0 && lastDigit < 2 => 'рік',
     final n when n > 20 && lastDigit > 1 && lastDigit < 5 => 'роки',
     final n when n > 20 && lastDigit > 4 => 'років',
