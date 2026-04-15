@@ -136,9 +136,10 @@ Future<void> task8() async {
     onDone: () => print('Стрім завершено'),
   );
 
-  controller.add('Hello');
-  controller.add('World');
-  controller.add('Dart');
+controller
+    ..add('Hello')
+    ..add('World')
+    ..add('Dart');
 
   await controller.close();
 
